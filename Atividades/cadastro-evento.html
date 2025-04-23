@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento Tech 2025</title>
+</head>
+<body>
+    <h1>Cadastro para o Evento Tech 2025</h1>
+
+    <p>Bem-vindo(a) ao maior evento de tecnologia do ano! Preencha o formulário abaixo para se cadastrar.</p>
+
+     <form>
+        <label for="nome">Nome completo:</label> <br>
+        <input type="text" id="nome" name="nome" >
+        <br> <br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email">
+        <br> <br>
+
+        <label for="data de nascimento">Data de nascimento:</label> <br>
+        <input type="date" id="data de nascimento" name="data de nascimento">
+        <br> <br>
+
+        <label>Gênero:</label><br>
+        <input type="radio" id="Feminino" name="genero" value="Feminino">
+        <label for="feminino">Feminino</label><br>    
+        <input type="radio" id="Masculino" name="genero" value="Masculino">
+        <label for="masculino">Masculino</label><br>
+        <input type="radio" id="outro" name="genero" value="outro">
+        <label for="outro">Outro</label><br><br>
+        
+        <label>Interesses:</label><br>
+        <input type="checkbox" id="ia" name="interesses" value="ia">
+        <label for="ia">Inteligência Artificial</label> <br>
+        <input type="checkbox" id="web" name="interesses" value="web">
+        <label for="ia">Desenvolvimento Web</label><br>
+        <input type="checkbox" id="seguranca" name="interesses" value="seguranca">
+        <label for="ia">Segurança da Informação</label><br><br>
+
+        <label>Estado:</label><br>
+        <select name="estados" id="estados">
+            <option value="df">Distrito Federal</option>
+            <option value="sp">São Paulo</option>
+            <option value="rj">Rio de Janeiro</option>
+        </select><br><br>
+
+        <label for="comentarios">Comentários adicionais:</label><br>
+        <textarea name="comentarios" id="comentarios"></textarea><br><br>
+
+        <input type="submit">
+     </form><br>
+
+     <h2>Programação do Envento</h2>
+     
+     <table border="1">
+        <thead>
+            <tr>
+                <th>Horário</th>
+                <th>Atividade</th>
+                <th>Palestrante</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>07:00</td>
+                <td>Abertura do Evento</td>
+                <td>Equipe Organizadora</td>
+            </tr>
+            <tr>
+                <td>08:00</td>
+                <td>Palestra: O Futuro da IA</td>
+                <td>Dr. Julia Rodrigues</tr>
+            </tr>
+            <tr>
+                <td>09:00</td>
+                <td>Workshop: Segurança na Web</td>
+                <td>Eng. Alexandre Silva </tr>
+            </tr>
+        </tbody>
+
+     </table>
+</body>
+</html>
