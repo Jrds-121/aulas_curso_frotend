@@ -3,17 +3,21 @@
     font-family: "Inter", sans-serif;
     color: white;
  }
+ 
 body {
     background-color: rgb(188, 202, 246);
     }
 div{
-    background-color: rgb(68, 120, 242);
+    background-color: rgb(59, 104, 209);
     width: 400px;
     height: 400px;
-    
+    margin: 50px auto;    
  }
  h1 {
     text-align: center;
     border: 6px solid;
     border-radius: 60px;
+ }
+ h1,p {
+    padding: 30px 50px;
  }
